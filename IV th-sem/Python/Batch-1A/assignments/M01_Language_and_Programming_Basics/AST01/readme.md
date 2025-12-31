@@ -1,7 +1,7 @@
 # Assignment AST01 – Language and Programming Basics
 
 ## Problem Statement
-Write a Python pdfdrogram that takes an integer as input and prints the **sum of its digits**.
+Write a Python pdfdrogram that takes an integer as input and prints the **sum of its digits test **.
 
 ### Example
 Input:
