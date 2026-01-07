@@ -1,14 +1,21 @@
 # Assignment AST01 – Language and Programming Basics
 
 ## Problem Statement
-Write a Python program that takes an integer as input and prints the **sum of its digits test **.
+Student Grade System :
+
+Calculate and store student grades for various subjects.
+
+This project stores student grades for various subjects, calculates their average, and determines their final grade. The user can input subject marks, and the system calculates the overall result (pass/fail).
+
+Input: Student name and grades for multiple subjects(3).
+Output: Student’s average grade and status (pass/fail).
 
 ### Example
 Input:
-1234
+Name: Pavan, Grades: 85, 90, 78
 
 Output:
-10
+"Average grade: 84.33, Status: Pass"
 
 ## Instructions
 1. Write your solution in `task.py`
