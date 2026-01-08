@@ -1,11 +1,14 @@
 # Assignment AST01 – Language and Programming Basics
 
 ## Problem Statement
-Write a Python pdfdrogram that takes an integer as input and prints the **sum of its digits test **.
+Ticket Pricing: Write a program for a cinema that asks for age and then calculates the price:
+Age < 5: Free
+Age 5–17: $10
+Age 18–64: $20
+Age 65+: $15
 
 ### Example
-Input:
-1234
+Input:16
 
 Output:
 10
