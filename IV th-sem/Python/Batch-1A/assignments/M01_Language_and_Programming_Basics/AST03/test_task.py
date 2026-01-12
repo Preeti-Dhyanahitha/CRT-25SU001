@@ -1,16 +1,16 @@
 import unittest
-from task import sum_of_digits
+from task import Student_Grade_System
 
 class TestAssignment(unittest.TestCase):
 
-    def test_single_digit(self):
-        self.assertEqual(sum_of_digits(5), 5)
+    def test1(self):
+        self.assertEqual(Student_Grade_System("abc",50,50,50), "Average grade: 50.0, Status: Pass")
 
-    def test_multiple_digits(self):
-        self.assertEqual(sum_of_digits(1234), 10)
+    def test2(self):
+        self.assertEqual(Student_Grade_System("xyz",12,34,10), "Average grade: 18.66, Status: fail")
 
-    def test_with_zero(self):
-        self.assertEqual(sum_of_digits(1010), 1)
+    def test3(self):
+        self.assertEqual(Student_Grade_System("preeti",90,80,70), "Average grade: 80.0, Status: Pass")
 
 if __name__ == "__main__":
     unittest.main()

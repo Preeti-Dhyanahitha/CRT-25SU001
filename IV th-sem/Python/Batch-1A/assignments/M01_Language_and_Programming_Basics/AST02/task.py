@@ -1,7 +1,7 @@
-def sum_of_digits(n: int) -> int:
+def even_odd(n: int) -> str:
    pass
 
 
 if __name__ == '__main__':
     n = int(input())
-    print(sum_of_digits(n))
+    print(even_odd(n))

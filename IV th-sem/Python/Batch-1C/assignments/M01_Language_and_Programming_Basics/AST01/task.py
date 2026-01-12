@@ -1,7 +1,7 @@
-def sum_of_digits(n: int) -> int:
+def Ticket_Pricing(n: int) -> int:
    pass
 
 
 if __name__ == '__main__':
     n = int(input())
-    print(sum_of_digits(n))
+    print(Ticket_Pricing(n))
