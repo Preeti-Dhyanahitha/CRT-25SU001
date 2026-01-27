@@ -1,7 +1,8 @@
-def Ticket_Pricing(n: int) -> int:
+from typing import List
+
+
+def Collatz_Sequence(n: int)-> List:
    pass
-
-
 if __name__ == '__main__':
     n = int(input())
-    print(Ticket_Pricing(n))
+    print(Collatz_Sequence(n))

@@ -17,7 +17,7 @@ The sequence continues until 𝑛 becomes 1.
 ### Example
 Input:6
 
-Output: 6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+Output: [6, 3, 10, 5, 16, 8, 4, 2, 1]
 
 ## Instructions
 1. Write your solution in `task.py`
