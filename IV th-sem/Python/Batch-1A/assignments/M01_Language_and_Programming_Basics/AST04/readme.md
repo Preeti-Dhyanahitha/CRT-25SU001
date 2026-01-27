@@ -1,18 +1,11 @@
-# Ticket Pricing
+# Reverse a String Using Loop
 
 ## Problem Statement
-Write a program for a cinema that asks for age and then calculates the price:
-```
-Age < 5: Free
-Age 5–17: $10
-Age 18–64: $20
-Age 65+: $15
-```
-### Example
-Input:16
+Reverse a string without using slicing.
 
-Output:
-10
+### Example
+Input: "Python"
+Output: "nohtyP"
 
 ## Instructions
 1. Write your solution in `task.py`

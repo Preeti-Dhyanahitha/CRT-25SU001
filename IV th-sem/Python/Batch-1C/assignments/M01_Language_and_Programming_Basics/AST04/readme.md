@@ -1,7 +1,7 @@
-# Ticket Pricing
+# Assignment AST01 – Language and Programming Basics
 
 ## Problem Statement
-Write a program for a cinema that asks for age and then calculates the price:
+Ticket Pricing: Write a program for a cinema that asks for age and then calculates the price:
 ```
 Age < 5: Free
 Age 5–17: $10
