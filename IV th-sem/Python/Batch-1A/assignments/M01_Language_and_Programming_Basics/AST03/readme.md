@@ -1,7 +1,6 @@
-# Assignment AST01 – Language and Programming Basics
+# Student Grade System 
 
 ## Problem Statement
-Student Grade System :
 
 Calculate and store student grades for various subjects.
 
