@@ -1,3 +1,4 @@
+import numpy as np
 '''
 import array
 arr = array.array('i',[])
