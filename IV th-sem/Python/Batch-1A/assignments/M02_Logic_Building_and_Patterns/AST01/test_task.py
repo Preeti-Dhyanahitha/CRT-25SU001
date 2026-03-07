@@ -1,16 +1,16 @@
 import unittest
-from task import is_even
+from task import count_digits
 
 class TestAssignment(unittest.TestCase):
 
-    def test_even_number(self):
-        self.assertEqual(is_even(4), True)
+    def test_single(self):
+        self.assertEqual(count_digits(5), 1)
 
-    def test_odd_number(self):
-        self.assertEqual(is_even(7), False)
+    def test_multiple(self):
+        self.assertEqual(count_digits(12345), 5)
 
-    def test_zero(self):
-        self.assertEqual(is_even(0), True)
+    def test_with_zero(self):
+        self.assertEqual(count_digits(100), 3)
 
 if __name__ == "__main__":
     unittest.main()

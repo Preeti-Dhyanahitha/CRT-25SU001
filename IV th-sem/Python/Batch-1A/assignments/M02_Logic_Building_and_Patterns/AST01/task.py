@@ -1,6 +1,6 @@
-def is_even(n: int) -> bool:
+def count_digits(n: int) -> int:
     pass
 
 if __name__ == "__main__":
     n = int(input())
-    print(is_even(n))
+    print(count_digits(n))

@@ -1,14 +1,16 @@
-# Count Digits
+# Reverse Number
+
 
 ## Problem Statement
-Write a function count_digits(n: int) -> int that returns the number of digits in a number.
+Write a function reverse_number(n: int) -> int that returns the reversed number.
 
 ### Example
 Input: 
-4567
+123
 
 Output: 
-4
+321
+
 
 ## Instructions
 1. Write your solution in `task.py`

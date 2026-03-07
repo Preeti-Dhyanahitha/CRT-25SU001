@@ -1,14 +1,19 @@
-# Count Digits
+# Right Triangle Pattern
+
 
 ## Problem Statement
-Write a function count_digits(n: int) -> int that returns the number of digits in a number.
+Write a function right_triangle(n: int) -> str that returns the star pattern.
 
 ### Example
 Input: 
-4567
+5
 
-Output: 
-4
+Output:
+*
+**
+***
+****
+*****
 
 ## Instructions
 1. Write your solution in `task.py`

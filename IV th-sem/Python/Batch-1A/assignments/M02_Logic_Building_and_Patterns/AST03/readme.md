@@ -1,14 +1,16 @@
-# Count Digits
+# Sum of Digits
+
 
 ## Problem Statement
-Write a function count_digits(n: int) -> int that returns the number of digits in a number.
+Write a function sum_of_digits(n: int) -> int that returns the sum of digits of a number.
 
 ### Example
 Input: 
-4567
+123
 
 Output: 
-4
+6
+
 
 ## Instructions
 1. Write your solution in `task.py`
