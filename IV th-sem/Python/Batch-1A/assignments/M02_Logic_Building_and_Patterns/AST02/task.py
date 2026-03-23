@@ -1,7 +1,8 @@
-def even_odd(n: int) -> str:
+from typing import List
+def findLucky(self, arr: List[int]) -> int:
    pass
 
 
 if __name__ == '__main__':
-    n = int(input())
-    print(even_odd(n))
+    arr = list(map(int,input().split()))
+    print(findLucky(arr))

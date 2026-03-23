@@ -120,13 +120,56 @@ Output:
   * *
  * * *
 * * * *
-'''
+
 n = int(input())
 for i in range(1,n+1):
     print(" "*(n-i)+"* "*i)
 
 
+3. Diamond
+n=4
+Output:
+   *
+  * *
+ * * *
+* * * *
+ * * *
+  * *
+   *
 
-class Solution:
-    def fractionToDecimal(self,numerator: int,denominator: int) -> str:
-        #write your code
+n = int(input())
+for i in range(1,n+1):
+    print(" "*(n-i)+"* "*i)
+for i in range(n-1,0,-1):
+    print(" "*(n-i)+"* "*i)
+
+n = 4
+output:
+   1
+  1 2
+ 1 2 3
+1 2 3 4
+
+n = int(input())
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end="")
+    for k in range(1,i+1):
+        print(k,end=" ")
+    print()
+
+#n = int(input())
+for i in range(1,n+1):
+        print(" "*(n-i)+" ".join([str(k) for k in range(1,i+1)]))
+    
+n = 4
+output:
+   1
+  2 2
+ 3 3 3
+4 4 4 4
+'''
+n = int(input())
+for i in range(1,n+1):
+        print(" "*(n-i)+" ".join([str(i) for k in range(1,i+1)]))
+ 
