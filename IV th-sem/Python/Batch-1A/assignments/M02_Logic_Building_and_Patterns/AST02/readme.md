@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Find Lucky Integer in an Array
 
 ## Problem Statement
@@ -25,6 +26,21 @@ Example 3:
 Input: arr = [2,2,2,3,3]
 Output: -1
 Explanation: There are no lucky numbers in the array.
+=======
+# Reverse Number
+
+
+## Problem Statement
+Write a function reverse_number(n: int) -> int that returns the reversed number.
+
+### Example
+Input: 
+123
+
+Output: 
+321
+
+>>>>>>> ca8183368301e9e2cda1fbc95a57a18121070cd1
 
 Constraints:
 

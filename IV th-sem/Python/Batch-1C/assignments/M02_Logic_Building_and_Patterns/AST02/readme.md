@@ -1,15 +1,15 @@
-# Sum of Digits
+# Reverse Number
 
 
 ## Problem Statement
-Write a function sum_of_digits(n: int) -> int that returns the sum of digits of a number.
+Write a function reverse_number(n: int) -> int that returns the reversed number.
 
 ### Example
 Input: 
 123
 
 Output: 
-6
+321
 
 
 ## Instructions
