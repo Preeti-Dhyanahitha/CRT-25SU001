@@ -23,7 +23,7 @@ print(a)
 
 a=[10,23,45,65,1,2,3]
 rev=[]
-for i  in range(len(a)):
+for i in range(len(a)):
     rev=[i]+rev
 print(rev)
 
