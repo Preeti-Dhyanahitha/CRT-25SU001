@@ -1,3 +1,4 @@
+#Hashing basics
 def frequency_count(s):
     d = {}
     for ch in s:
