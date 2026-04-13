@@ -25,3 +25,21 @@ def containsDuplicate(nums):
 print(containsDuplicate([1,2,3,1]))#True
 
 #First unique character in a string(#387)
+from collections import Counter
+def firstUniqChar(self, s: str) -> int:
+    d = dict(Counter(s))
+    for i,ch in enumerate(s):
+        if d[ch] == 1:
+            return i
+    return -1
+
+# Two sum(#1)
+def twoSum(nums,target):
+    d = {}
+    for i in range(len(nums)):
+        compl = target - nums[i]
+        if compl in d:
+            return [d[compl],i]
+        else:
+            d[nums[i]] = i
+            
