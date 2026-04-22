@@ -1,0 +1,31 @@
+def Binary_search(nums,target):
+    low,high = 0,len(nums)-1
+    while low <= high:
+        mid = (low + high) // 2
+        if target == nums[mid]:
+            return mid
+        elif target < nums[mid]:
+            high = mid - 1
+        else:
+            low = mid + 1
+    return -1
+
+li = list(map(int,input().split()))
+target = int(input())
+
+print(Binary_search(li,target)) 
+
+# 35. Search Insert Position solution
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        low,high = 0,len(nums)-1
+        while low <= high:
+            mid = (low + high) // 2
+            if target == nums[mid]:
+                return mid
+            elif target < nums[mid]:
+                high = mid - 1
+            else:
+                low = mid + 1
+        return low
+        
