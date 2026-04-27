@@ -1,0 +1,9 @@
+#49. Group Anagrams
+def groupAnagrams(strs):    
+    ans = {}
+
+    for s in strs:
+        key = "".join(sorted(s))
+        ans[key].append(s)
+    
+    return list(ans.values())        
