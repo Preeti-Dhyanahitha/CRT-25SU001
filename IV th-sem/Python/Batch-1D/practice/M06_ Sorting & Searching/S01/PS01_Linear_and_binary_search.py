@@ -2,7 +2,7 @@
 '''
 1. Linear search(sequential)
 2. Binary search(Interval)
-
+'''
 def Linear_search(arr,target):
     for i in range(len(arr)):
         if arr[i] == target:
@@ -15,7 +15,7 @@ print(Linear_search(li,target))#-1
 
 target1 = int(input())
 print(Linear_search(li,target1))#0
-'''
+
 #Binary search
 def Binary_search(arr,target):
     low,high = 0,len(arr)-1
